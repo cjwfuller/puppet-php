@@ -17,12 +17,12 @@ class php::params {
       $httpd_conf_dir = '/etc/apache2/conf.d'
     }
     default: {
-      $php_package_name = 'php'
-      $php_apc_package_name = 'php-pecl-apc'
-      $common_package_name = 'php-common'
-      $cli_package_name = 'php-cli'
+      $php_package_name = 'php56-php'
+      $php_apc_package_name = 'php56-php-pecl-apcu'
+      $common_package_name = 'php56-php-common'
+      $cli_package_name = 'php56-php-cli'
       $php_conf_dir = '/etc/php.d'
-      $fpm_package_name = 'php-fpm'
+      $fpm_package_name = 'php56-php-fpm.'
       $fpm_service_name = 'php-fpm'
       $fpm_pool_dir = '/etc/php-fpm.d'
       $fpm_conf_dir = '/etc'
